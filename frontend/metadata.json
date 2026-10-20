@@ -1,0 +1,6 @@
+{
+  "name": "ChatGPT - Clean AI Chat Interface",
+  "description": "A beautiful, minimalist, and aesthetic ChatGPT-inspired conversational interface featuring dark and light modes, markdown code highlighting, voice dictation, and conversation management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

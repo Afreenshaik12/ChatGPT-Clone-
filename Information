@@ -1,0 +1,2 @@
+-> To start this clone project in one terminal run the frontend (npm run dev)
+-> In another terminal run the backend (node server.js)
