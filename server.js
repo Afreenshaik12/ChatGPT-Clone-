@@ -117,9 +117,10 @@ app.post('/chat', async (req, res) => {
 });
 
 // 2. Catch-all route: Every non-API page request serves your main index.html file
-app.get('*', (req, res) => {
+app.get('/*splat', (req, res) => {
   res.sendFile(path.join(__dirname, 'frontend/dist', 'index.html'));
 });
+
 
 // Render provides a custom port variable automatically via process.env.PORT
 const PORT = process.env.PORT || 3001;
